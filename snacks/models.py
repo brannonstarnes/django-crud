@@ -20,3 +20,9 @@ class Drinks(models.Model):
     title = models.CharField(max_length=60)
     purchaser = models.ForeignKey(get_user_model(), on_delete=CASCADE)
     description = models.TextField(max_length=256)
+
+    def __str__(self):
+        return self.name
+
+    def get_absolute_url(self):
+        return reverse("snack_detail", args=[str(self.id)])
