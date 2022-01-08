@@ -9,4 +9,4 @@ Creates a simple Django CRUD application that tracks and manages user's snacks.
 
 #### Pull Request
 
-Click [here]() to view the PR.
+Click [here](https://github.com/brannonstarnes/django-crud/pull/1) to view the PR.
